@@ -1,24 +1,64 @@
-# README
+# Forms - Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This project ilustrates how authentication and authorization works in a Rails app
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails
+- Using gems like Devise
+- Using Linters for Ruby and Stylelint
+- Git, GitHub
+- Using Bundler
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple steps.
 
-* Database creation
+- Go to the main page of te repo. `git clone https://github.com/disc3110/MembersOnly.git`
+- Press the "Code" button and get the repo link.
+- Clone it using git.
+- Open terminal on that folder.
+- run `npm install`
+- run `bundle install`
+- run `rails db: migrate` to migrate the database 
+- run `rails server`
+- Go to `http://localhost:3000` on your browser to view the homepage of the application 
 
-* Database initialization
+## Signing Up
 
-* How to run the test suite
+- Go to `http://localhost:3000/users/sign_up` on your web browser.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Prerequisites
 
-* ...
+Before you continue, be sure that you have installed:
+
+- A Git GUI.
+- Ruby and RubyGem
+- Rails 2.7.2
+- NPM & Yarn
+- An Integrated Development Environment.
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/disc3110/MembersOnly/issues).
+
+### Steps
+
+1. Fork this repository.
+
+2. Create a branch: git checkout -b <branch_name>.
+
+3. Make your changes and commit them: git commit -m '<commit_message>'
+
+4. Push to the original branch: git push origin <project_name>/
+
+5. Create the pull request.
+
+Alternatively see the GitHub documentation on creating a pull request. Feel free to check the issues page.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
