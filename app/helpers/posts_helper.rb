@@ -12,4 +12,5 @@ module PostsHelper
   def create_posts
     render 'form', post: @post if user_signed_in?
   end
+
 end
