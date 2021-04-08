@@ -1,4 +1,4 @@
-# Forms - Ruby on Rails
+# Members Only - Ruby on Rails
 
 > This project ilustrates how authentication and authorization works in a Rails app
 
@@ -38,6 +38,11 @@ Before you continue, be sure that you have installed:
 - Rails 2.7.2
 - NPM & Yarn
 - An Integrated Development Environment.
+
+## 👤 Author 
+
+- GitHub: [disc3110](https://github.com/disc3110)
+- Twitter: [Diego Ivan Solis](https://twitter.com/disc3110)
 
 ## 🤝 Contributing
 
