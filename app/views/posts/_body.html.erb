@@ -7,14 +7,7 @@
             <h6 class="card-subtitle mb-2 text-white-50">Posted by: <%= post.user.username %></h6>
             <% end %>
             <p class="card-text text-light"><%= post.body %></p>
-            <% if user_signed_in? && (current_user == post.user) %>
-            <%= link_to edit_post_path(post) do %>
-                <span class="icon"><i class="fas fa-edit"></i></span>
-            <% end %>
-            <%= link_to post, method: :delete, data: { confirm: 'Are you sure?' } do%>
-                <span class="icon"><i class="fas fa-trash-alt"></i></span>
-            <% end %>
-            <% end %>
+            
         </div>
     </div>
 
