@@ -2,17 +2,7 @@
 <div class="w-50 my-3">
 <span class="text-center fs-1 fw-bold my-5"> Create your own post </span>
 <%= form_with(model: post) do |form| %>
-  <% if post.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
-
-      <ul>
-        <% post.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
+  <%= disp_form_errors %>
 
   <div class="field mb-3 row">
     <%= form.label :title, class: "col-sm-2 col-form-label" %>

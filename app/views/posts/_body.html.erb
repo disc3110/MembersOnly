@@ -3,11 +3,9 @@
     <div class="card w-50 my-1 border-0 bg-dark bg-gradient">
         <div class="card-body">
             <h5 class="card-title text-white"><%= post.title %></h5>
-            <% if user_signed_in? %>
-            <h6 class="card-subtitle mb-2 text-white-50">Posted by: <%= post.user.username %></h6>
-            <% end %>
+            <h6 class="card-subtitle mb-2 text-white-50"><%= post_author(post) %></h6>
             <p class="card-text text-light"><%= post.body %></p>
-            
+
         </div>
     </div>
 

@@ -21,9 +21,9 @@
     <%= render 'layouts/header' %>
 
     <div class="container pt-1">
-    <% if notice %>
-    <%= render 'layouts/alerts' %>
-    <% end %>
+
+    <%= disp_alerts %>
+
     <%= yield %>
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
